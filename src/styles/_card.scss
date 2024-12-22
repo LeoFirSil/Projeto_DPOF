@@ -1,0 +1,46 @@
+@use 'variaveis';
+
+.container { 
+    text-align: center; 
+    padding: 110px 20px;
+
+    &__title { 
+        font-size: 2.5em; 
+        margin-bottom: 20px; 
+        color: variaveis.$corBra;
+    } 
+}
+
+.characters { 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+
+    &__card { 
+        background-color: variaveis.$corBra;
+        border: 2px solid variaveis.$corAma;
+        border-radius: 10px;
+        padding: 20px; width: 300px; 
+        box-shadow: 0 4px 8px rgba(variaveis.$corBra, .8);
+        
+        &__name { 
+            font-size: 1.5em; 
+            margin: 10px 0; 
+        }
+
+        &__description { 
+            font-size: 1em; 
+            color: variaveis.$corCin; 
+        }
+
+        & img { 
+            width: 100%; 
+            border-radius: 10px; 
+        } 
+    }
+} 
+
+@media (max-width: 768px) {
+
+}

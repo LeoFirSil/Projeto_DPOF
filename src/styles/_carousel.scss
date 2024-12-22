@@ -1,0 +1,52 @@
+@use 'variaveis';
+
+.trailers {
+    text-align: center; 
+    align-items: center;
+    padding: 120px 20px; 
+
+    &__title {
+        color: variaveis.$corBra;
+        font-size: 2.5em; 
+        margin-bottom: 150px; 
+
+        &__text {
+            color: variaveis.$corBra;
+            margin-top: 16px;
+        }
+    }
+} 
+
+.carousel { 
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 100%;
+
+    &__video {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        border: 2px solid variaveis.$corAma;
+    }
+}
+
+@media (max-width: 768px) {
+    .trailers {
+        &__title {
+            margin-bottom: 8px;
+            font-size: 1.5em;
+
+            &__text {
+                margin-top: 8px;
+                margin-bottom: 32px;
+            }
+        }
+
+    }
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+}

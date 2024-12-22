@@ -1,0 +1,20 @@
+@use 'variaveis';
+@use 'header';
+@use 'hero';
+@use 'sobre';
+@use 'carousel';
+@use 'card';
+@use 'curiosidades';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gruppo", sans-serif;
+}
+
+section {
+
+    background-color: variaveis.$corPrt;
+}

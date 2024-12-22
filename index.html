@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Volta Para o Futuro</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="navbar"> 
+        <div> 
+            <img class="navbar__logo" src="./dist/images/logo.png" alt="Logo do Filme"> 
+        </div> 
+        <nav> 
+            <ul class="navbar__pills"> 
+                <li class="navbar__item">
+                    <a data-tab-link="inicio" href="#inicio" class="navbar__link navbar__link--is--active">Início</a>
+                </li> 
+                <li class="navbar__item">
+                    <a data-tab-link="sobre"  href="#sobre" class="navbar__link">Sobre o Filme</a>
+                </li> 
+                <li class="navbar__item">
+                    <a data-tab-link="trailes" href="#trailers" class="navbar__link">Trailers</a>
+                </li> 
+                <li class="navbar__item">
+                    <a data-tab-link="personagens" href="#personagens" class="navbar__link">Personagens</a>
+                </li> 
+                <li class="navbar__item">
+                    <a data-tab-link="curiosidades" href="#curiosidades" class="navbar__link">Curiosidades</a>
+                </li> 
+                <li class="navbar__item">
+                    <a data-tab-link="contato" href="#contato" class="navbar__link">Redes sociais</a>
+                </li> 
+            </ul> 
+        </nav> 
+        <a href="https://www.youtube.com/watch?v=_5UQxN4D67k&list=PLjjkfIRASd9bfPyYJ22YXhuNHBzsL7n3L" class="navbar__btn">Assista Agora</a> 
+    </header>
+        <section id="inicio" class="hero">
+            <div class="hero__content">
+                <h2 class="hero__content__title">
+                    "Reviva o clássico que atravessa gerações!"
+                </h2>
+                <p class="hero__content__text">
+                    "De Volta para o Futuro é uma jornada inesquecível e emocionante que todo mundo precisa assistir pelo menos uma vez!"
+                </p>
+            </div>
+        </section>
+        <section id="sobre" class="sobre"> 
+            <h2 class="sobre__title">
+                Sobre o Filme
+            </h2>
+            <p class="sobre__text"> 
+                Lançado em 1985, De Volta Para o Futuro é um marco do cinema dirigido por Robert Zemeckis e produzido por Steven Spielberg. Acompanhe Marty McFly e o excêntrico Dr. Emmett Brown em uma aventura no tempo que define o futuro! 
+            </p> 
+            <img class="sobre__media" src="./dist/images/poster_1.jpg" alt="Poster do filme" >
+        </section>
+        <section id="trailers" class="trailers"> 
+            <h2 class="trailers__title">Experimente o Futuro</h2> 
+            <div class="carousel"> 
+                <div> 
+                        <iframe class="carousel__video" src="https://www.youtube.com/embed/DYFBYfzA90E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3 class="trailers__title__text">Teaser oficial</h3>
+                </div> 
+                <div> 
+                    <iframe class="carousel__video" src="https://www.youtube.com/embed/h4KovemTytncwE72" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3 class="trailers__title__text">Trailer oficial</h3>
+                </div> 
+                <div> 
+                    <iframe class="carousel__video" src="https://www.youtube.com/embed/d9LFk6Pl5H8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3 class="trailers__title__text">Erros e bastidores</h3>
+                </div> 
+            </div> 
+        </section>
+        <section id="personagens" class="container"> 
+            <h2 class="container__title">Os Heróis da História</h2> 
+            <div class="characters"> 
+                <div class="characters__card"> 
+                    <img src="./dist/images/Michael_Fox.jpg" alt="Marty McFly"> 
+                    <h3 class="characters__card__name">Marty McFly</h3> 
+                    <p class="characters__card__text">Jovem carismático que viaja no tempo.</p> 
+                </div> <div class="characters__card"> 
+                    <img src="./dist/images/Christopher_Lloyd.jpg" alt="Dr. Emmett Brown"> 
+                    <h3 class="characters__card__name">Dr. Emmett Brown</h3> 
+                    <p class="characters__card__text">O gênio excêntrico por trás do DeLorean.</p> 
+                </div> 
+                <div class="characters__card"> 
+                    <img src="./dist/images/Thomas_Wilson.jpg" alt="Biff Tannen"> 
+                    <h3 class="characters__card__name">Biff Tannen</h3> 
+                    <p class="characters__card__text">O antagonista da trama.</p> 
+                </div> 
+            </div> 
+        </section>
+        <section id="curiosidades" class="curiosities"> 
+            <h2 class="curiosities__title">Você sabia?</h2> 
+            <ul class="curiosities__list"> 
+                <li class="curiosities__list-item">O DeLorean foi escolhido por causa do design futurista.</li> 
+                <li class="curiosities__list-item">Michael J. Fox não foi a primeira escolha para o papel de Marty McFly. Eric Stoltz foi originalmente escalado, mas foi substituído depois de algumas semanas de filmagem.</li> 
+                <li class="curiosities__list-item">O filme ganhou o Oscar de Melhor Edição de Som em 1986.</li> 
+                <li class="curiosities__list-item">A ideia para o filme veio quando o roteirista Bob Gale encontrou o anuário do colégio de seu pai e imaginou como seria conhecer seus pais na adolescência.</li> 
+                <li class="curiosities__list-item">O filme estreou em 3 de julho de 1985 e rapidamente se tornou um sucesso de bilheteria.</li> <li class="curiosities__list-item">Na cena do cachorro viajando no Delorean foram feitas por um duble vestido de cão, já que não conseguiram fazer o controle remoto funcionar de verdade.</li> 
+    
+            </ul> 
+        </section>
+            <footer id="contato" class="footer"> 
+                <ul class="footer__links"> 
+                    <li><a href="#">Sobre o Filme</a></li> 
+                    <li><a href="#">Contato</a></li> 
+                    <li><a href="#">Termos de Uso</a></li> 
+                    <li><a href="#">Política de Privacidade</a></li> 
+                </ul> 
+                <ul class="footer__social-icons"> 
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank"><img src="./dist/images/facebook.jpg" alt="Facebook"></a>
+                    </li> 
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank"><img src="./dist/images/x.jpg" alt="Twitter"></a>
+                    </li> 
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank"><img src="./dist/images/instagram.jpg" alt="Instagram"></a>
+                    </li> 
+                </ul> 
+                <div class="footer__credits">
+                    © 2024 - Todos os direitos reservados.
+                </div> 
+            </footer>
+
+        <script src="./dist/js/main.js"></script>
+</body>
+</html>

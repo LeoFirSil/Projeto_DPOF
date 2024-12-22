@@ -1,0 +1,46 @@
+@use 'variaveis';
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/delorean_travel.jpg);
+    background-size: cover;
+
+    &__content {
+        margin: 200px 30px;
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+            color: variaveis.$corAma;
+        }
+
+        &__text {
+            width: 30%;
+            font-size: 16px;
+            color: variaveis.$corAma;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        background-image: url(../images/delorean_travel.jpg);
+        background-position: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 120px;
+
+        &__content {
+            margin: 0 auto;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+
+            &__text {
+                margin-top: 55vh;
+            }
+        }
+    }
+}
